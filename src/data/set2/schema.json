@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "education": {
+      "type": "object",
+      "properties": {
+        "degree": {
+          "type": "string",
+          "description": "Votre diplôme"
+        },
+        "institution": {
+          "type": "string",
+          "description": "Votre institution"
+        }
+      },
+      "required": ["degree", "institution"]
+    },
+    "skills": {
+      "type": "object",
+      "properties": {
+        "skillName": {
+          "type": "string",
+          "description": "Nom de la compétence"
+        },
+        "experience": {
+          "type": "integer",
+          "description": "Années d'expérience"
+        }
+      },
+      "required": ["skillName", "experience"]
+    }
+  }
+}

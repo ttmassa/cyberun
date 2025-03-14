@@ -1,0 +1,33 @@
+{
+  "type": "Categorization",
+  "elements": [
+    {
+      "type": "Category",
+      "label": "Éducation",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/education/properties/degree"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/education/properties/institution"
+        }
+      ]
+    },
+    {
+      "type": "Category",
+      "label": "Compétences",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/skills/properties/skillName"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/skills/properties/experience"
+        }
+      ]
+    }
+  ]
+}

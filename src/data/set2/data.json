@@ -1,0 +1,10 @@
+{
+  "education": {
+    "degree": "Master en Informatique",
+    "institution": "Université de Paris"
+  },
+  "skills": {
+    "skillName": "Développement Web",
+    "experience": 5
+  }
+}
