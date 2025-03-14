@@ -1,32 +1,61 @@
-# React + TypeScript Q&A Game 🎮
+# Cyberun Form Application 📝
 
-A simple Q&A game built with React and TypeScript to demonstrate frontend skills.
+A dynamic form application built with React, TypeScript, and JSONForms to demonstrate frontend skills.
 
 ## 🚀 Features
 
-- Loads a question and answers dynamically from a JSON object.
-- Displays appropriate feedback based on user choice.
+- Dynamically renders forms based on JSON schema and UI schema.
+- Supports multiple datasets and categories.
+- Custom categorization renderer for enhanced UI/UX.
+- Built with modern libraries like Ant Design and JSONForms.
 
 ## 🛠️ Getting Started
 
 Follow these instructions to set up and run the project locally.
 
-1. **Clone the repository:**
+### 1. **Clone the repository**
 
-- Clone the repository to your local machine using the following command:
+Clone the repository to your local machine using the following command:
 
-    ```bash
-    git clone https://github.com/ttmassa/dataleon.git
+```bash
+git clone https://github.com/ttmassa/cyberun.git
+```
 
-2. **Install Dependencies:**
+### 2. **Install Dependencies**
 
-- Navigate to the project directory and install the necessary dependencies by running:
+Navigate to the project directory and install the necessary dependencies by running:
 
-   ```bash
-   npm install
+```bash
+npm install
+```
 
+### 3. **Start the Development Server**
 
-3. **Start the development server:**
+Run the following command to start the development server:
 
-    ```bash
-    npm start
+```bash
+npm start
+```
+
+The application will be available at `http://localhost:3000`.
+
+## 📂 Project Structure
+
+- **`src/data`**: Contains JSON schemas, UI schemas, and data for the forms.
+- **`src/components`**: Custom components like the categorization renderer.
+- **`src`**: Main application logic and entry point.
+
+## 🧰 Built With
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/) - A strongly typed programming language.
+- [JSONForms](https://jsonforms.io/) - A framework for rendering JSON-based forms.
+- [Ant Design](https://ant.design/) - A React UI library.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit a pull request or open an issue.
+
+## 📜 License
+
+This project is licensed under the MIT License.
