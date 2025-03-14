@@ -1,0 +1,60 @@
+{
+    "type": "Categorization",
+    "elements": [
+      {
+        "type": "Category",
+        "label": "Informations Personnelles",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/personalInformation/properties/firstName"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/personalInformation/properties/lastName"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/personalInformation/properties/birthDate"
+          }
+        ]
+      },
+      {
+        "type": "Category",
+        "label": "Adresse",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/address/properties/street"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/address/properties/city"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/address/properties/postalCode"
+          }
+        ]
+      },
+      {
+        "type": "Category",
+        "label": "Emploi",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/employment/properties/company"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/employment/properties/position"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/employment/properties/years"
+          }
+        ]
+      }
+    ]
+  }
+  

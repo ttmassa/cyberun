@@ -1,0 +1,62 @@
+{
+    "type": "object",
+    "properties": {
+      "personalInformation": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "minLength": 3,
+            "description": "Veuillez entrer votre prénom"
+          },
+          "lastName": {
+            "type": "string",
+            "minLength": 3,
+            "description": "Veuillez entrer votre nom de famille"
+          },
+          "birthDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Veuillez entrer votre date de naissance"
+          }
+        },
+        "required": ["firstName", "lastName", "birthDate"]
+      },
+      "address": {
+        "type": "object",
+        "properties": {
+          "street": {
+            "type": "string",
+            "description": "Veuillez entrer votre adresse"
+          },
+          "city": {
+            "type": "string",
+            "description": "Veuillez entrer votre ville"
+          },
+          "postalCode": {
+            "type": "string",
+            "description": "Veuillez entrer votre code postal"
+          }
+        },
+        "required": ["street", "city", "postalCode"]
+      },
+      "employment": {
+        "type": "object",
+        "properties": {
+          "company": {
+            "type": "string",
+            "description": "Veuillez entrer le nom de votre entreprise"
+          },
+          "position": {
+            "type": "string",
+            "description": "Veuillez entrer votre poste"
+          },
+          "years": {
+            "type": "integer",
+            "description": "Veuillez entrer le nombre d'années d'expérience"
+          }
+        },
+        "required": ["company", "position", "years"]
+      }
+    }
+  }

@@ -1,0 +1,18 @@
+{
+    "personalInformation": {
+      "firstName": "Timothée",
+      "lastName": "Massa",
+      "birthDate": "1990-01-01"
+    },
+    "address": {
+      "street": "123 Rue Principale",
+      "city": "Paris",
+      "postalCode": "75001"
+    },
+    "employment": {
+      "company": "Cyberun",
+      "position": "Développeur",
+      "years": 5
+    }
+  }
+  
