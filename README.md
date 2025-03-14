@@ -1,9 +1,15 @@
 # Cyberun Form Application 📝
+# Cyberun Form Application 📝
 
+A dynamic form application built with React, TypeScript, and JSONForms to demonstrate frontend skills.
 A dynamic form application built with React, TypeScript, and JSONForms to demonstrate frontend skills.
 
 ## 🚀 Features
 
+- Dynamically renders forms based on JSON schema and UI schema.
+- Supports multiple datasets and categories.
+- Custom categorization renderer for enhanced UI/UX.
+- Built with modern libraries like Ant Design and JSONForms.
 - Dynamically renders forms based on JSON schema and UI schema.
 - Supports multiple datasets and categories.
 - Custom categorization renderer for enhanced UI/UX.
@@ -14,23 +20,35 @@ A dynamic form application built with React, TypeScript, and JSONForms to demons
 Follow these instructions to set up and run the project locally.
 
 ### 1. **Clone the repository**
+### 1. **Clone the repository**
 
+Clone the repository to your local machine using the following command:
 Clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/ttmassa/cyberun.git
 ```
+```bash
+git clone https://github.com/ttmassa/cyberun.git
+```
 
 ### 2. **Install Dependencies**
+### 2. **Install Dependencies**
 
+Navigate to the project directory and install the necessary dependencies by running:
 Navigate to the project directory and install the necessary dependencies by running:
 
 ```bash
 npm install
 ```
+```bash
+npm install
+```
 
 ### 3. **Start the Development Server**
+### 3. **Start the Development Server**
 
+Run the following command to start the development server:
 Run the following command to start the development server:
 
 ```bash
