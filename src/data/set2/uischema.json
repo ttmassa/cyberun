@@ -4,6 +4,9 @@
     {
       "type": "Category",
       "label": "Éducation",
+      "options": {
+        "key": "education"
+      },
       "elements": [
         {
           "type": "Control",
@@ -18,6 +21,9 @@
     {
       "type": "Category",
       "label": "Compétences",
+      "options": {
+        "key": "skills"
+      },
       "elements": [
         {
           "type": "Control",

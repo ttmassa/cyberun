@@ -4,6 +4,9 @@
       {
         "type": "Category",
         "label": "Informations Personnelles",
+        "options": {
+          "key": "personalInformation"
+        },
         "elements": [
           {
             "type": "Control",
@@ -22,6 +25,9 @@
       {
         "type": "Category",
         "label": "Adresse",
+        "options": {
+          "key": "address"
+        },
         "elements": [
           {
             "type": "Control",
@@ -40,6 +46,9 @@
       {
         "type": "Category",
         "label": "Emploi",
+        "options": {
+          "key": "employment"
+        },
         "elements": [
           {
             "type": "Control",
